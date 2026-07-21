@@ -1,0 +1,2 @@
+import { Link } from 'react-router-dom'
+export default function Listing({title}:{title:string}){return <main className="container min-h-[70vh] pt-40 pb-24"><p className="eyebrow">House of Surprise</p><h1 className="display mt-4 text-6xl sm:text-8xl">{title}</h1><p className="mt-6 max-w-lg text-mist">Our concierge is shaping this collection. Begin a booking to see our live, tailored options.</p><Link to="/book" className="mt-9 inline-block rounded-full bg-gold px-6 py-3 text-sm font-bold text-ink">Start your celebration</Link></main>}
